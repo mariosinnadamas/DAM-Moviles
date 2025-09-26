@@ -1,7 +1,5 @@
 package juegosdemesa;
 
-import java.io.*;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -10,14 +8,6 @@ public class Main {
         GestorJuegos gestor = new GestorJuegos();
         boolean comprobado = false; //Variable reutilizada para comprobar las distintas entradas
         gestor.cargarDatos();
-/*
-        gestor.coleccionJuegos.add(new JuegoTablero("Catan",3,8,90, Juego.TipoJuego.ESTRATEGIA, "50x50"));
-        gestor.coleccionJuegos.add(new JuegoCartas("Virus",2,6,10, Juego.TipoJuego.PARTY,50));
-        gestor.coleccionJuegos.add(new JuegoTablero("Monopoly",2,12,180, Juego.TipoJuego.FAMILIAR,"50x45"));
-        gestor.coleccionJuegos.add(new JuegoTablero("Avalon",2,4,30, Juego.TipoJuego.ESTRATEGIA,"50x60"));
-        gestor.coleccionJuegos.add(new JuegoCartas("Sota Cabrona", 2,4,10, Juego.TipoJuego.FAMILIAR,40));
-        gestor.coleccionJuegos.add(new JuegoTablero("Ajedrez", 2,2,10, Juego.TipoJuego.ESTRATEGIA,"40x50"));
-*/
 
         String eleccion;
 
